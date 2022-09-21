@@ -41,6 +41,7 @@ main{
     display: flex;
     flex-direction: row;
     margin-top: 50px;
+    border: 2px rgb(132, 14, 201);
 }
 
 h2{
@@ -54,6 +55,7 @@ h2{
 }
 
 span{
+    text-shadow: 2px 1px white;
     color: rgb(132, 14, 201);
 }
 
@@ -64,21 +66,41 @@ p{
 }
 
 #oi{
-    width: 380px;
-    margin: 5px;
-    padding: 5px;
+    width: 400px;
+    margin: 1px;
+    padding: 1px; 
 
 }
+
+
 img{
     width: 150px;
     margin: 50px;
 
 }
 
-#peq{
-    width: 200px; !important
+.imagens:hover{
+    background-color: rgb(132, 14, 201);
+    opacity: 50%;
 }
 
-section{
-    border: 2px rgb(132, 14, 201);
+.imagens{
+    border: solid 2px rgb(132, 14, 201);
+    padding: 15px;
 }
+
+#p{
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+}
+
+
+q:visited{
+    text-align: center;
+    color: rgb(132, 14, 201);
+}
+
+
+
+
