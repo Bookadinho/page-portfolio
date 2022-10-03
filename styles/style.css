@@ -24,8 +24,13 @@ li{
     margin: 20px;
 }
 
-a{
+a:link{
     color: white;
+}
+
+a:visited{
+    color: rgb(14, 201, 139);
+    
 }
 
 a:hover{
@@ -33,26 +38,31 @@ a:hover{
     transition: 0.3s all;
 }
 
+a:active{
+    color: rgb(48, 14, 201);
+}
+
+
+
 h1{
     font-weight: 200;
 }
 
 main{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 50px;
     border: 2px rgb(132, 14, 201);
 }
 
 h2{
     font-size: 30px;
+    display: flex;
     line-height: 40px;
+    text-align: center;
     font-family: poppinsmedium;
 }
 
-#id{
-    text-align: center;
-}
 
 span{
     text-shadow: 2px 1px white;
@@ -63,13 +73,19 @@ p{
     line-height: 20px;
     max-width: 500px;
     font-family: poppinslight;
+    text-align: center;
 }
 
 #oi{
-    width: 400px;
-    margin: 1px;
-    padding: 1px; 
+    text-align: center;
 
+}
+
+div{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    
 }
 
 
@@ -93,13 +109,13 @@ img{
     font-size: 15px;
     text-align: center;
     line-height: 25px;
+    padding: 20px;
 }
 
-
-q:visited{
-    text-align: center;
-    color: rgb(132, 14, 201);
+.ul{
+    color:white;
 }
+
 
 
 
