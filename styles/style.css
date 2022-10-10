@@ -79,7 +79,6 @@ main{
 h2{
     font-size: 30px;
     display: row;
-    line-height: 40px;
     text-align: center;
     font-family: poppinsmedium;
 }
@@ -144,6 +143,11 @@ img{
     font-size: 15px;
     padding: auto;
     text-align: center;
+}
+#p1{
+    font-size: 15px;
+    padding: 50px;
+    align-items: center;
 }
 
 .ul{
