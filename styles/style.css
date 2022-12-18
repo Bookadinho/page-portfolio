@@ -56,7 +56,7 @@ a:visited{
 
 a:hover{
     color: rgb(132, 14, 201);
-    transition: 0.3s all;
+    transition: 0.7s all;
 }
 
 a:active{
@@ -121,6 +121,7 @@ img{
 .imagens:hover{
     background-color: rgb(132, 14, 201);
     opacity: 50%;
+    transition: 0.5s;
 }
 
 .imagens{
@@ -154,7 +155,34 @@ img{
     color:white;
 }
 
+button{
+    font-family: poppinsbold;
+    background-color: white;
+    color: rgb(132, 14, 201);
+    border: solid, 4px;
+    border-radius: 10px;
+    margin: 200px;
+    padding: 5px;
+}
 
+#point{
+    display: none;
+}
 
+#point1{
+    display: none;
+}
+
+#point2{
+    display: none;
+}
+
+#point3{
+    display: none;
+}
+
+#point4{
+    display: none;
+}
 
 
