@@ -18,6 +18,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 #title{
@@ -47,6 +48,7 @@ metade{
 
 a:link{
     color: white;
+    font-family: poppinsbold;
 }
 
 a:visited{
